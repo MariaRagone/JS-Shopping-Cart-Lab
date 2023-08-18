@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <h1 class="text-center">Gas Station</h1>
+        </div>
+        <div class="row">
+          <!--Make cards-->
+          <div class="card col-4 p-10">
+            <img
+              class="card-img-top"
+              src="https://images.squarespace-cdn.com/content/v1/54c5a9a6e4b0a642bb47ea45/1600174149267-PZVOP7D7DJPSQMVUHFCA/Mtn+Dew+can.jpg?format=1000w"
+            />
+            <div class="card-body">
+              <H6>Mountain Dew</H6> 
+              <h5 class="text-left">1.99</h3>
+            </div>  
+            <button onclick="AddToCart('Mountain Dew', 1.99)" 
+            class="btn btn-danger">Add to Cart</button>
+        </div>
+        <div class="card col-4 p-10">
+            <img
+              class="card-img-top"
+              src="https://assets.speedway.com/documents/TemplateFiles/images/bogo-pizza/pizza.jpg"/>
+            <div class="card-body">
+              <H6>Pizza</H6> 
+              <h5 class="text-left">15.99</h3>
+            </div>  
+            <button onclick="AddToCart('Pizza', 15.99)" 
+            class="btn btn-danger">Add to Cart</button>
+        </div>
+        <div class="card col-4 p-10">
+            <img
+              class="card-img-top"
+              src="https://www.erictermuende.com/wp-content/uploads/2022/02/ET_Gas_Station_Sushi.jpg"/>
+            <div class="card-body">
+              <H6>Sushi</H6> 
+              <h5 class="text-left">10.99</h3>
+            </div>  
+            <button onclick="AddToCart('Sushi', 10.99)" 
+            class="btn btn-danger">Add to Cart</button>
+        </div>
+
+           
+          </div>
+  
+  
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
